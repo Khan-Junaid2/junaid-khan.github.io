@@ -17,6 +17,7 @@ body{
 
 #header{
     background-image:  url(images/Junaid-Khan2.JPG);
+    margin: auto;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -41,7 +42,7 @@ body{
 
 nav{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     justify-content: space-between;
 
@@ -50,7 +51,7 @@ nav{
 nav li{
     display: inline-block;
     list-style: none;
-    margin: 0px 40px;
+    margin: auto 40px;
     margin-bottom: 40px;
 }
 
@@ -358,7 +359,10 @@ nav .fas{
 }
 /* --------css Media Query------ */
 
-@media only screen and (max-width: 900px){
+
+
+@media screen and (max-width: 900px)
+       {
 
     #header{
         background-image: none;     
