@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaid Khan - PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bc77ed678b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Main Container Block -->
+    <div id="header">
+        <div class="container">
+            <nav >
+                <div class="logo"> <span class="Initials" >JK</span></div>
+                <img src="images/Junaid-Khan1.JPG" alt="Avatar" class="avatar">
+                <ul id="sidemenu" style="z-index: 2;">
+                    <li><a href="#header" onclick="closeMenu()"> HOME</a> </li>
+                    <li><a href="#about" onclick="closeMenu()"> ABOUT</a> </li>
+                    <li><a href="#portfolio" onclick="closeMenu()"> PROJECTS</a> </li>
+                    <li><a href="#contact" onclick="closeMenu()"> CONTACT</a> </li>
+                   <i class="fas fa-times" onclick=" closeMenu() "></i>
+                </ul>
+                <i class="fas fa-bars bars" id="hambug" style="z-index: 1;" onclick="openMenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <h3>Hi There !</h3>
+                <h1>I Am <span class="input"></span></h1>
+
+               
+            </div>
+        </div>
+    </div>
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container"></div>
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Junaid-Khan1.JPG" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Junaid Khan is currently pursuing a Post-Graduate Programme in Digital Media and Marketing Communication from Jio Institute, Navi Mumbai. He has a Bachelor's of Engineering degree in Mechanical and has three years of work experience in elevating revenue and brand reach as a Territory Sales Manager and Business Development Manager in Edtech companies. His areas of interest are brand management and product management. He is a team player with effective communication, problem solving, and negotiation skills. His hobbies are travelling, fitness and Music.</p>
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links" onclick="openTab('education')">Education</p>
+                <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                <p class="tab-links" onclick="openTab('certification')">Certification</p>
+            </div> 
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>AutoCad</li>
+                    <li>Catia</li>
+                    <li>Ms-Excel</li>
+                    <li>Google Analytics</li>
+                    <li>Hootsuite</li>
+                    <li>Data Visualization - Tableau</li>
+                </ul>
+            </div>     
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li>Post Graduate Programme in Digital Media and Marketing Communication - (Jio Institute 2022-2023) </li>
+                    <li>BE - (Mechanical Engineering 2014-2018)</li>
+                    
+                </ul>
+            </div>     
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li>Business Development Manager - Sunstone</li>
+                    <p >- Responsibilities: </p>
+                    <div class="experience-list" >
+                        <li>Lead generation, Product demo, negotiation, Sales Closure.</li>
+                        <li>Channel marketing, Revenue generation.</li>
+                    </div>
+                   
+                    <li>Territory Sales Manager - Navneet Toptech (Esense learning Pvt. ltd.)</li>
+                    <p >- Responsibilities: </p>
+                    <div class="experience-list" >
+                        <li>Lead generation, Product demo, negotiation, Sales Closure.</li>
+                        <li>Managed Team of 3-4 members..</li>
+                        <li>Handled client queries and service team.</li>
+                        <li>Market Research and conducted CSR activities.</li>
+                    </div>
+                </ul>
+            </div>    
+            <div class="tab-contents" id="certification">
+                <ul>
+                    <li>Google Analytics</li>
+                    <li>Hootsuite Platform</li>
+                    <li>Introduction to Data Analysis using Excel by Rice University</li>
+                    <li>Better Business Writing in English by Georgia Institute of Technology</li>
+                    <li>Improving Communication Skills by Wharton School of the University of Pennsylvania</li>
+                    <li>Statistics for Marketing by Meta</li>
+                </ul>
+            </div>       
+            </div>
+        </div>
+    </div>
+<!-- --------portfolio------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 style="font-size: 60px;">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/godrej-expert.png" alt="">
+                <div class="layer">
+                    <h3>Godrej Expert.</h3>
+                    <p>Formulated a digital and social media marketing campaign for the hair color shampoo.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Colors_TV_logo.png" alt="">
+                <div class="layer">
+                    <h3>Colors Viacom 18.</h3>
+                    <p>Paragraph here</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/x-culture.png" alt="">
+                <div class="layer">
+                    <h3>X-Culture.</h3>
+                    <p> Worked in a global virtual team to create a marketing strategy for an international brand planning for market expansion. </p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- ------contact------ -->
+
+ <div id="contact">
+    <div-container>
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jndkhan.7860@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 7020482538</p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.facebook.com/jndkhan?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/junaid-khan-b0a9011ab"><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+                <a href="images/junaid cv.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn1">Submit</button>
+                </form>
+               <span id="successmessage"></span>
+            </div>
+        </div>
+  
+ </div>
+ <div class="copyright">
+    <p>Copyright @ Junaid</p>
+ </div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyi9phTP7b2rjwy7cPjUUAm4iZbcoof1WG2AstV4u13v6sMLPZ7Gy0gFruynHFky0qZ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById('successmessage')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= 'Message sent successfully'
+            setTimeout(function(){
+                msg.innerHTML= ''
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed= new Typed('.input', {
+        strings:['Junaid Khan.','Digital Marketer.'],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true
+    })
+</script>
+</body>
