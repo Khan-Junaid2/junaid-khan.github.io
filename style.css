@@ -12,12 +12,12 @@ html{
 }
 body{
     background-color: #000;
+    
     color: #ababab;
 }
 
 #header{
-    background-image:  url(images/Junaid-Khan2.JPG);
-
+    background-image:url(images/Junaid-Khan.JPG);
     margin: auto;
     background-position: center;
     background-size: cover;
@@ -363,13 +363,13 @@ nav .fas{
        
 {
         #header{
-            background-image:  url(images/Junaid-Khan2.JPG);
-            margin: auto;
+            background-image:url(images/Junaid-Khan2.JPG);
+            margin:auto ;
             background-position: center;
-            background-size: 500 px * auto ;
+            background-size: 500px * 300px ;
             background-repeat: no-repeat;
             width: 100%;
-            height: 100vh;
+            height: 750px
         }
        }
 
